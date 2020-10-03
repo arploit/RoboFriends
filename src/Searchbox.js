@@ -1,12 +1,13 @@
 import React from 'react';
+import 'tachyons';
 
 const SearchBox = ({ searchfield,searchChange }) => {
     return(
-        <div className='pa2'>
+        <div className='br-pill pa2'>
             <input 
             type='Search'
             placeholder = 'RoboFriend'
-            className='pa3 ba b--green bg-lightest-blue'
+            className='br-pill pa3 ba b--green bg-lightest-blue'
             onChange={searchChange}    
             />
         </div>
